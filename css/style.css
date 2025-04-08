@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Fonte personalizada */
+.fonteprincipal {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Estilo base do body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6ecf2; 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Cabeçalho e rodapé */
+header, footer {
+  background-color: #a3c4f3; /* Azul claro */
+  text-align: center;
+  padding: 20px;
+}
+
+/* Título principal com fonte do Google Fonts */
+header h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 48px;
+  color: #333;
+  margin: 0;
+}
+
+/* Barra de navegação */
+nav {
+  background-color: #e4e4e4;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Links da navegação */
+nav a {
+  margin: 0 15px;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #a0522d; /* Marrom ao passar o mouse */
+}
+
+/* Estilo para a página inicial (home) */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Imagem principal da home */
+#timescariocas {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+/* Lista de clubes */
+.clubes {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.clubes ol {
+  padding-left: 20px;
+}
+
+.clubes a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.clubes a:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.contato {
+  margin-top: 10px;
+}
+
+/* Estilo para as páginas dos clubes */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+section {
+  max-width: 800px;
+  background-color: white;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Imagens dentro das páginas de clubes */
+section img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+/* Textos dos artigos */
+article {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+body.bangu {
+  background-color: red; 
+}
+body.madureira {
+  background-color: yellow; 
+}  
+body.america {
+  background-color: red; 
+}  
+
+body.olaria {
+  background-color: darkblue; 
+}
+
+body.bonsucesso {
+  background-color: rgb(110, 5, 5); 
+}
+
+body.saocristovao {
+  background-color: black; 
+}
+
+
+.menu-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 15px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+img.produto-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+table {
+  width: 400px;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+/* Células da tabela com espaçamento, alinhamento à esquerda e borda inferior */
+td, th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Imagem dentro da tabela com seletor aninhado */
+td img {
+  border-radius: 25px;
+  width: 100%;
+}
+
+/* Linha com hover (efeito ao passar o mouse) */
+tr:hover {
+  background-color: lightblue; /* Azul clarinho, pode trocar por outra cor se quiser */
+}
+
+
+
+.galeria-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.galeria-container h2 {
+  margin-bottom: 30px;
+}
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.galeria-grid img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.galeria-grid img:hover {
+  transform: scale(1.05);
+}
+
+
+
+.contato-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contato-container h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+  background-color: #cceaf6;
+  outline: none;
+}
+
+button {
+  background-color: #a3c4f3;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #789edb;
+}
